@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Secular One", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #1b4f72;
+}
+
+.container {
+  width: 90vw;
+  max-width: 37.5em;
+  padding: 3em 1.8em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background-color: #ffc300;
+  border-radius: 10px;
+  box-shadow: 3.1em 2em 3em rgba(0, 0, 0, 0.2);
+}
+
+.search {
+  display: grid;
+  grid-template-columns: 9fr 2fr;
+  gap: 1em;
+}
+
+.search input {
+  font-size: 20px;
+  text-transform: capitalize;
+  background-color: #f2f4f4;
+  border-radius: 3px;
+  border-style: none;
+  padding-left: 20px;
+}
+
+.search button {
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search button:hover {
+  background-color: #1b4f72;
+  color: #f2f4f4;
+}
+
+.movie-details {
+  background-color: #1b4f72;
+  padding: 10px 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: #f2f4f4;
+}
+.info {
+  position: relative;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  margin-top: 1em;
+}
+.poster {
+  width: 100%;
+  padding-left: 10px;
+}
+div {
+  padding-top: 0.5em;
+}
+h4 {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6em;
+  margin: 0.4rem 0 0.9em 0;
+}
+.rating img {
+  width: 1.2em;
+}
+
+.rating h4 {
+  display: inline-block;
+  font-size: 1.1em;
+}
+.details {
+  display: flex;
+  gap: 0.6em;
+  justify-content: center;
+  color: #aab7b8;
+  margin: 0.4em 0;
+}
+.genre {
+  display: flex;
+  justify-content: space-around;
+}
+.genre div {
+  border: 1px solid #f2f4f4;
+  font-size: 0.8em;
+  padding: 0.4em 1.6em;
+  border-radius: 10px;
+}
+p {
+  font-size: 0.9em;
+  text-align: justify;
+  line-height: 1.8em;
+}
+h3 {
+  padding-top: 0.5em;
+  letter-spacing: 2px;
+}
